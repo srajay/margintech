@@ -31,13 +31,13 @@ const ContactSection = () => {
             </div>
 
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.facebook.com/">
                 <FacebookIcon fontSize="medium" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/">
                 <InstagramIcon fontSize="medium" />
               </a>
-              <a href="#">
+              <a href="https://www.youtube.com/">
                 <TwitterIcon fontSize="medium" />
               </a>
             </div>

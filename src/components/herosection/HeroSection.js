@@ -69,13 +69,13 @@ const HeroSection = () => {
             </div>
             <div className="content-right_social">
               <p>Connect with us</p>
-              <a href="#">
+              <a href="https://www.facebook.com/">
                 <FacebookIcon fontSize="large" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/">
                 <InstagramIcon fontSize="large" />
               </a>
-              <a href="#">
+              <a href="https://www.youtube.com/">
                 <TwitterIcon fontSize="large" />
               </a>
             </div>

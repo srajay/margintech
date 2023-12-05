@@ -75,13 +75,13 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <div className="social-links">
-                  <a href="#">
+                  <a href="https://www.facebook.com/">
                     <FacebookIcon />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/">
                     <InstagramIcon />
                   </a>
-                  <a href="#">
+                  <a href="https://www.youtube.com/">
                     <TwitterIcon />
                   </a>
                 </div>
