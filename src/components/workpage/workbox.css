@@ -1,0 +1,92 @@
+.workbox-container {
+  display: flex;
+  column-gap: 136px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.workbox-card {
+  width: 590px;
+  height: auto;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.workbox-card > a {
+  text-decoration: none;
+}
+.workbox-img {
+  width: 590px;
+  height: 350px;
+  object-fit: cover;
+}
+.workbox-img > img {
+  width: 590px;
+  height: 350px;
+  object-fit: cover;
+}
+.workbox-title > p {
+  font-size: 40px;
+  font-family: "lato";
+  /* color: #d6a4ff; */
+  text-align: left;
+  color: #1e1e1e;
+}
+.workbox-line {
+  width: auto;
+  height: 3px;
+  border-radius: 10px;
+  /* background-color: #6d3997; */
+  background-color: #c0c0c0;
+}
+.workbox-task {
+  display: flex;
+  justify-content: space-between;
+}
+.workbox-task > p {
+  font-family: "lato";
+  font-size: 30px;
+  /* color: #6d3997; */
+  color: #c0c0c0;
+}
+
+@media (max-width: 768px) {
+  .workbox {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .workbox-header > p {
+    font-size: 50px;
+  }
+  .workbox-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .workbox-card {
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .workbox-img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .workbox-img > img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .workbox-title > p {
+    font-size: 30px;
+  }
+  .workbox-task > p {
+    font-size: 20px;
+  }
+}

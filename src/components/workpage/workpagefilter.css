@@ -1,0 +1,49 @@
+.project-cat {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+.project-cat > button {
+  width: 20%;
+  height: 80px;
+  font-size: 20px;
+  font-family: "lato";
+  border-radius: 50px;
+  border-style: none;
+  /* border: 2px solid #8d00ff; */
+  /* color: #8d00ff; */
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+.project-cat > button:hover {
+  /* background-color: #8d00ff; */
+  color: #fff;
+  background-color: var(--blue);
+}
+.project-cat > button.active {
+  color: #eee;
+  /* background-color: #8d00ff; */
+  background-color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .project-cat > button {
+    width: auto;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 390px) {
+  .project-cat > button {
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
