@@ -42,7 +42,7 @@ const ContactSection = () => {
               </a>
             </div>
             <div className="rights">
-              <p>All rights reserved &copy; Margintech 2023</p>
+              <p>All rights reserved &copy; Margintechnologies 2023</p>
             </div>
           </div>
         </div>

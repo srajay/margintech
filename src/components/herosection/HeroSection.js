@@ -29,7 +29,7 @@ const HeroSection = () => {
               <span>
                 <AcUnitIcon fontSize="large" />
               </span>
-              At MarginTech, our passion lies in innovation, and we take pride
+              At MarginTechnologies, our passion lies in innovation, and we take pride
               in our ability to create cutting-edge digital products from the
               ground up.
             </p>
