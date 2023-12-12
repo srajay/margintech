@@ -1,6 +1,7 @@
 import Aron from "../../assets/aron.png";
 import Ilami from "../../assets/ilamiagro.jpg";
 import Visional from "../../assets/visional.jpg";
+import Ptatts from "../../assets/ptatts.png";
 
 export const Data = [
   {
@@ -28,6 +29,16 @@ export const Data = [
     title: "VISIONAL",
     para: "A live shopping platform",
     task: "Design & Development",
+    date: "2023",
+  },
+
+  {
+    worknum: 4,
+    link: "https://constructible-chapl.000webhostapp.com/",
+    img: Ptatts,
+    title: "PTATTS",
+    para: "A tattoo art and designing studio",
+    task: "Development",
     date: "2023",
   },
 ];
