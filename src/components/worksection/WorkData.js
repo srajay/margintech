@@ -37,7 +37,7 @@ export const Data = [
     link: "https://constructible-chapl.000webhostapp.com/",
     img: Ptatts,
     title: "PTATTS",
-    para: "A tattoo art and designing studio",
+    para: "A tattoo booking platform",
     task: "Development",
     date: "2023",
   },

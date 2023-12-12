@@ -36,7 +36,7 @@ export const WorkData = [
     link: "https://constructible-chapl.000webhostapp.com/",
     category: "Development",
     img: Ptatts,
-    title: "PTATTS - A tattoo art and designing studio",
+    title: "PTATTS - A tattoo booking platform",
     task: "Development",
     date: "2023",
   },
