@@ -6,7 +6,7 @@ export const Data = [
   {
     worknum: 1,
     img: SoftwareDevelopment,
-    title: "Software Development",
+    title: "Web Design & Development",
     para: "Whether you're envisioning a web application, mobile app, or bespoke software solution, we tailor our approach to meet your unique needs.",
   },
   {

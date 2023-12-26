@@ -31,18 +31,18 @@ const ContactSection = () => {
             </div>
 
             <div className="social-icon">
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/profile.php?id=61554031543717">
                 <FacebookIcon fontSize="medium" />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/margin_technologies/">
                 <InstagramIcon fontSize="medium" />
               </a>
-              <a href="https://www.youtube.com/">
+              <a href="https://margin-technologies.com/">
                 <TwitterIcon fontSize="medium" />
               </a>
             </div>
             <div className="rights">
-              <p>All rights reserved &copy; Margintechnologies 2023</p>
+              <p>All rights reserved &copy; MarginTech 2023</p>
             </div>
           </div>
         </div>

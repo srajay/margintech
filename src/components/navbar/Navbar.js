@@ -75,7 +75,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <div className="social-links">
-                  <a href="https://www.facebook.com/">
+                  <a href="https://www.facebook.com/profile.php?id=61554031543717">
                     <FacebookIcon />
                   </a>
                   <a href="https://www.instagram.com/">
