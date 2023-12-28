@@ -91,3 +91,28 @@
     column-gap: 40px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .about-score {
+    column-gap: 20px;
+  }
+
+  .happy-clients h1 {
+    font-size: 25px;
+  }
+  .happy-clients p {
+    font-size: 14px;
+  }
+  .website h1 {
+    font-size: 25px;
+  }
+  .website p {
+    font-size: 14px;
+  }
+  .design h1 {
+    font-size: 25px;
+  }
+  .design p {
+    font-size: 14px;
+  }
+}

@@ -161,3 +161,11 @@
     width: 330px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  .servicecard-card,
+  .servicecard-img,
+  .servicecard-img img {
+    width: 240px;
+  }
+}

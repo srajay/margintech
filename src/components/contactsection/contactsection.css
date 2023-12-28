@@ -34,6 +34,10 @@
   column-gap: 20px;
   color: var(--white);
 }
+.contact-location > p > a {
+  text-decoration: none;
+  color: var(--white);
+}
 .social-icon {
   display: flex;
   column-gap: 20px;
@@ -144,5 +148,14 @@
 @media screen and (max-width: 391px) {
   .contact-info {
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .contact-info {
+    width: 240px;
+  }
+  .contact-location > p {
+    font-size: 14px;
   }
 }

@@ -121,6 +121,15 @@
   color: var(--blue);
 }
 
+@media screen and (max-width: 1367px) {
+  .hero-section {
+    height: 680px;
+  }
+  .bg-video {
+    height: 680px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .hero-section {
     height: 700px;
@@ -281,5 +290,14 @@
   .companies {
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .hero-section {
+    height: 640px;
+  }
+  .bg-video {
+    height: 640px;
   }
 }

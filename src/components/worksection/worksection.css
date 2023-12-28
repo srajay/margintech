@@ -85,6 +85,16 @@
     width: 385px;
   }
 }
+@media screen and (max-width: 1367px) {
+  .workcard {
+    column-gap: 30px;
+  }
+  .workcard-card,
+  .workcard-img,
+  .workcard-img img {
+    width: 340px;
+  }
+}
 
 @media screen and (max-width: 1280px) {
   .workcard {
@@ -173,5 +183,12 @@
   .workcard-img,
   .workcard-img img {
     width: 330px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .workcard-card,
+  .workcard-img,
+  .workcard-img img {
+    width: 240px;
   }
 }

@@ -3,7 +3,7 @@ import "./herosection.css";
 import CoderBoy from "../../assets/coder-boy.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import IlamiLogo from "../../assets/agro-logo.png";
 import VisionalLogo from "../../assets/visional-logo.png";
@@ -69,14 +69,26 @@ const HeroSection = () => {
             </div>
             <div className="content-right_social">
               <p>Connect with us</p>
-              <a href="https://www.facebook.com/profile.php?id=61554031543717">
+              <a
+                href="https://www.facebook.com/profile.php?id=61554031543717"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FacebookIcon fontSize="large" />
               </a>
-              <a href="https://www.instagram.com/margin_technologies/">
+              <a
+                href="https://www.instagram.com/margin_technologies/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <InstagramIcon fontSize="large" />
               </a>
-              <a href="https://margin-technologies.com/">
-                <TwitterIcon fontSize="large" />
+              <a
+                href="https://www.linkedin.com/in/margin-technologies-57b0892a5/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon fontSize="large" />
               </a>
             </div>
           </div>
