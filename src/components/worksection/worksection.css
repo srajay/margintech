@@ -34,6 +34,8 @@
   column-gap: 58px;
   flex-wrap: wrap;
   row-gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .workcard-card {
@@ -110,6 +112,35 @@
 @media screen and (max-width: 1024px) {
   .work-content h1 {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .worksection {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .workcard {
+    column-gap: 40px;
+  }
+  .workcard-card,
+  .workcard-img,
+  .workcard-img img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .worksection {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .workcard {
+    column-gap: 40px;
+  }
+  .workcard-card,
+  .workcard-img,
+  .workcard-img img {
+    width: 300px;
   }
 }
 

@@ -1,6 +1,7 @@
 import SoftwareDevelopment from "../../assets/software-development.jpg";
 import UIUXDesign from "../../assets/uiux-design.jpg";
 import VideoEditing from "../../assets/video-editing.jpg";
+import DigitalMarketing from "../../assets/digitalmarketing.jpg";
 
 export const Data = [
   {
@@ -20,5 +21,11 @@ export const Data = [
     img: VideoEditing,
     title: "Video Editing",
     para: "Step into the world of captivating narratives with our video editing services, where each frame is meticulously curated to evoke emotions and convey your message with cinematic finesse.",
+  },
+  {
+    worknum: 4,
+    img: DigitalMarketing,
+    title: "Digital Marketing",
+    para: "Our cutting-edge digital marketing solutions are designed to elevate your brand's online presence, captivate your target audience, and drive tangible results.",
   },
 ];

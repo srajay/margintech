@@ -34,6 +34,8 @@
   column-gap: 58px;
   flex-wrap: wrap;
   row-gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .servicecard-card {
@@ -90,6 +92,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .servicesection {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .servicecard {
+    column-gap: 40px;
+  }
+  .servicecard-card,
+  .servicecard-img,
+  .servicecard-img img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
   .servicesection {
     padding-left: 50px;
     padding-right: 50px;

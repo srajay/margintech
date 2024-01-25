@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import MarginLogo from "../../assets/margin-logo2.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -10,36 +10,61 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
+  const [activeNavItem, setActiveNavItem] = useState();
+
+  const handleNavItemClick = (navItem) => {
+    setActiveNavItem(navItem);
+  };
 
   return (
     <>
       <div className="navbar">
         <div className="logo-section">
-          <Link to="/">
+          <NavLink to="/">
             <img src={MarginLogo} alt="marginlogo" />
             <p>Margintech</p>
-          </Link>
+          </NavLink>
         </div>
         <div className="navbar-links">
           <li>
-            <Link to="/">
-              <p>Home</p>
-            </Link>
+            <NavLink to="/">
+              <p
+                className={activeNavItem === "home" ? "active" : ""}
+                onClick={() => handleNavItemClick("home")}
+              >
+                Home
+              </p>
+            </NavLink>
           </li>
           <li>
-            <Link to="/work">
-              <p>Work</p>
-            </Link>
+            <NavLink to="/work">
+              <p
+                className={activeNavItem === "work" ? "active" : ""}
+                onClick={() => handleNavItemClick("work")}
+              >
+                Work
+              </p>
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">
-              <p>About</p>
-            </Link>
+            <NavLink to="/about">
+              <p
+                className={activeNavItem === "about" ? "active" : ""}
+                onClick={() => handleNavItemClick("about")}
+              >
+                About
+              </p>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">
-              <p>Contact</p>
-            </Link>
+            <NavLink to="/contact">
+              <p
+                className={activeNavItem === "contact" ? "active" : ""}
+                onClick={() => handleNavItemClick("contact")}
+              >
+                Contact
+              </p>
+            </NavLink>
           </li>
         </div>
         <div className="navbar-mob">
@@ -55,24 +80,44 @@ const Navbar = () => {
 
               <div className="navbar-items">
                 <li>
-                  <Link to="/">
-                    <p>Home</p>
-                  </Link>
+                  <NavLink to="/">
+                    <p
+                      className={activeNavItem === "home" ? "active" : ""}
+                      onClick={() => handleNavItemClick("home")}
+                    >
+                      Home
+                    </p>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/work">
-                    <p>Work</p>
-                  </Link>
+                  <NavLink to="/work">
+                    <p
+                      className={activeNavItem === "work" ? "active" : ""}
+                      onClick={() => handleNavItemClick("work")}
+                    >
+                      Work
+                    </p>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/about">
-                    <p>About</p>
-                  </Link>
+                  <NavLink to="/about">
+                    <p
+                      className={activeNavItem === "about" ? "active" : ""}
+                      onClick={() => handleNavItemClick("about")}
+                    >
+                      About
+                    </p>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/contact">
-                    <p>Contact</p>
-                  </Link>
+                  <NavLink to="/contact">
+                    <p
+                      className={activeNavItem === "contact" ? "active" : ""}
+                      onClick={() => handleNavItemClick("contact")}
+                    >
+                      Contact
+                    </p>
+                  </NavLink>
                 </li>
                 <div className="social-links">
                   <a href="https://www.facebook.com/profile.php?id=61554031543717">

@@ -53,8 +53,9 @@
 .navbar-links > li > a:hover {
   color: var(--blue);
 }
-.navbar-links .active {
+.navbar-links > li > a .active {
   color: var(--blue);
+  cursor: pointer;
 }
 
 .navbar-mob {

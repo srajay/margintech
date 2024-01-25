@@ -1,16 +1,6 @@
 .hero-section {
   width: 100%;
-  height: 600px;
-}
-
-.bg-video {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 600px;
-  top: 80px;
-  left: 0;
-  z-index: -1;
+  height: auto;
 }
 
 .hero-content {
@@ -19,7 +9,7 @@
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 40px;
-  background-color: rgba(0, 0, 0, 0.441);
+  background-color: var(--blue);
 }
 
 .content-left {
@@ -121,34 +111,13 @@
   color: var(--blue);
 }
 
-@media screen and (max-width: 1367px) {
-  .hero-section {
-    height: 680px;
-  }
-  .bg-video {
-    height: 680px;
-  }
-}
-
 @media screen and (max-width: 1280px) {
-  .hero-section {
-    height: 700px;
-  }
-  .bg-video {
-    height: 700px;
-  }
   .hero-content {
     padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .hero-section {
-    height: 600px;
-  }
-  .bg-video {
-    height: 600px;
-  }
   .hero-content {
     padding-bottom: 40px;
   }
@@ -161,12 +130,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero-section {
-    height: 550px;
-  }
-  .bg-video {
-    height: 550px;
-  }
   .hero-content {
     padding-left: 50px;
     padding-right: 50px;
@@ -178,12 +141,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero-section {
-    height: 545px;
-  }
-  .bg-video {
-    height: 545px;
-  }
   .hero-content {
     padding-left: 50px;
     padding-right: 50px;
@@ -195,12 +152,6 @@
 }
 
 @media screen and (max-width: 640px) {
-  .hero-section {
-    height: 530px;
-  }
-  .bg-video {
-    height: 530px;
-  }
   .hero-content {
     padding-left: 50px;
     padding-right: 50px;
@@ -212,12 +163,6 @@
 }
 
 @media screen and (max-width: 476px) {
-  .hero-section {
-    height: 510px;
-  }
-  .bg-video {
-    height: 510px;
-  }
   .hero-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -239,12 +184,6 @@
 }
 
 @media screen and (max-width: 426px) {
-  .hero-section {
-    height: 470px;
-  }
-  .bg-video {
-    height: 470px;
-  }
   .hero-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -266,12 +205,6 @@
 }
 
 @media screen and (max-width: 391px) {
-  .hero-section {
-    height: 530px;
-  }
-  .bg-video {
-    height: 530px;
-  }
   .hero-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -290,14 +223,5 @@
   .companies {
     justify-content: center;
     align-items: center;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .hero-section {
-    height: 640px;
-  }
-  .bg-video {
-    height: 640px;
   }
 }
