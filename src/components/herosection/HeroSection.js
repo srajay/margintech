@@ -13,12 +13,12 @@ const HeroSection = () => {
   return (
     <>
       <div className="hero-section">
-        {/* <video loop autoPlay muted className="bg-video">
+        <video loop autoPlay muted className="bg-video">
           <source
             src={require("../../assets/hero-video.mp4")}
             type="video/mp4"
           />
-        </video> */}
+        </video>
         <div className="hero-content">
           <div className="content-left">
             <h1>
